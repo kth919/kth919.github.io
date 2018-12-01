@@ -150,11 +150,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
 # Reading Files
 include:
   - .htaccess
@@ -280,7 +275,12 @@ compress_html:
   ignore:
     envs: development
 
-
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+    
 # Defaults
 defaults:
     # _posts
