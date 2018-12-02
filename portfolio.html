@@ -1,11 +1,9 @@
 ---
-author_profile: true
 layout: single
 title: Portfolios
 ---
-
 {% for portfolio in site.portfolio %}
 <div class="List_of_portfolio">
-   <h2><a href="{{ portfolio.url }}">{{ portfolio.name }}</a></h2>
+   <h2><a href="{{ portfolio.url }}">{{ portfolio.title }}</a></h2>
  </div>
 {% endfor %}
